@@ -1,5 +1,6 @@
 import React from 'react';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -19,16 +20,16 @@ export default function Footer() {
                             <ul>
                                 <h4>Services</h4>
                                 <li className='py-2'>
-                                    <a className='footer-color'><ArrowForwardIcon /> <span>Web Design</span></a>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Web Design</span></Link>
                                 </li>
                                 <li className='py-2'>
-                                    <a className='footer-color'><ArrowForwardIcon /> <span>Web Development</span> </a>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Web Development</span> </Link>
                                 </li>
                                 <li className='py-2'>
-                                    <a className='footer-color'><ArrowForwardIcon /> <span>Graphic Design</span></a>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Graphic Design</span></Link>
                                 </li>
                                 <li className='py-2'>
-                                    <a className='footer-color'><ArrowForwardIcon />  <span>UI/UX Design</span></a>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon />  <span>UI/UX Design</span></Link>
                                 </li>
                             </ul>
                         </div>
@@ -36,13 +37,13 @@ export default function Footer() {
                             <ul>
                                 <h4>Have a question?</h4>
                                 <li className='py-2'>
-                                    <a className='footer-color'><ArrowForwardIcon /> <span>D-221 patel garden Dwarka more <span className='ms-4 ps-1'>New Delhi(India)</span> </span></a>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>D-221 patel garden Dwarka more <span className='ms-4 ps-1'>New Delhi(India)</span> </span></Link>
                                 </li>
                                 <li className='py-2'>
-                                    <a className='footer-color'><ArrowForwardIcon /><span>+91 8770434284</span></a>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /><span>+91 8770434284</span></Link>
                                 </li>
                                 <li className='py-2'>
-                                    <a className='footer-color'><ArrowForwardIcon /><span> naveen.ojha.rewa@gmail.com</span></a>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /><span> naveen.ojha.rewa@gmail.com</span></Link>
                                 </li>
                             </ul>
                         </div>

@@ -3,6 +3,7 @@ import Home from './component/Home';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import About from './component/About';
+import Services from './component/Services';
 // import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Services />
       <Footer />
 
       {/* <Routes>
