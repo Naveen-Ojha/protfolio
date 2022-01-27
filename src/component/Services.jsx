@@ -1,7 +1,7 @@
 import React from 'react';
 import ServiceCard from './common/ServiceCard';
 import { Link } from 'react-router-dom';
-import img from '../images/service-bg-project.webp';
+import Counter from './common/Counter';
 
 
 
@@ -19,7 +19,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className='mb-5' style={{ backgroundImage: `url(${img})`, width: "100%", height: "250px", background:"linear-gradient(0deg, rgb(38 67 211 / 100%), rgb(32 53 201 / 34%)) 0% 0% / cover",backgroundSize:"cover" }}></div>
+            <Counter />
         </>
     )
 }

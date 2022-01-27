@@ -1,6 +1,8 @@
 import React from 'react';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { Link } from 'react-router-dom';
+import ReactWhatsapp from 'react-whatsapp';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 export default function Footer() {
     return (
@@ -55,6 +57,11 @@ export default function Footer() {
                     <div className="text-center"> Copyright ©2021 All rights reserved | This template is made with ❤️  by Naveen Kant Ojha </div>
                 </div>
             </section>
+            <div>
+                <ReactWhatsapp className="whatappp" number="7415272944" message="Hello Naveen">
+                    <WhatsAppIcon className='btn-success custom-whatapp' />
+                </ReactWhatsapp>
+            </div>
         </div>
     )
 }
