@@ -7,7 +7,7 @@ function About() {
             <div className='container my-5 subtitle'>
                 <div className='row'>
                     <div className='col-md-5'>
-                        <img src={img} alt="about img" className='w-100' style={{ height: "500px" }} />
+                        <img src={'https://www.desktopbackground.org/p/2012/03/26/364541_business-technology-28696-business-class-people-business-people_1400x990_h.jpg'} alt="about img" className='w-100' style={{ height: "500px" }} />
                     </div>
                     <div className='col-md-7 px-5'>
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">

@@ -23,9 +23,9 @@ export default function header() {
             <div className="container">
                 <nav className="navbar navbar-expand-lg fixed-top ftco-navbar-light pt-3" id="navbar">
                     <div className="container">
-                        <Link className="navbar-brand text-white align-items-center" to="#">
-                            Nk.ojha
-                        </Link>
+                        {/* <Link className="navbar-brand text-white align-items-center" to="#">
+                            
+                        </Link> */}
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="fa fa-bars"></span> Menu
                         </button>
@@ -34,8 +34,8 @@ export default function header() {
                                 <li className="nav-item"><Link to="/">Home</Link></li>
                                 <li className="nav-item"><NavLink to="/about">About</NavLink></li>
                                 <li className="nav-item"><NavLink to="/services">Services</NavLink></li>
-                                <li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>
-                                <li className="nav-item"><NavLink to="/pricing">Pricing</NavLink></li>
+                                {/* <li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>
+                                <li className="nav-item"><NavLink to="/pricing">Pricing</NavLink></li> */}
                                 <li className="nav-item"><NavLink to="/blog">Blog</NavLink></li>
                                 <li className="nav-item"><NavLink to="/contactme">Contact</NavLink></li>
                             </ul>

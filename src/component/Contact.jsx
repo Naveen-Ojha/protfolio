@@ -25,7 +25,7 @@ function Contact() {
                             <h3 className='font-bold mb-3'>Contact Us</h3>
                             <p className='text-color'>We're open for any suggestion or just to have a chat</p>
                         </div>
-                        <div className='row'>
+                        {/* <div className='row'>
                             <div className='col-md-4'>
                                 <h6 className='font-bold'>MY ADDRESS:</h6>
                                 <p className='text-color'>198 West 21th Street, Suite 721 New York NY 10016</p>
@@ -38,7 +38,7 @@ function Contact() {
                                 <h6 className='font-bold'>MY PHONE:</h6>
                                 <p>+ 1235 2355 98</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div>
                             <form onSubmit={sendEmail}>
                                 <div className='row'>

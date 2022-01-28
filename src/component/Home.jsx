@@ -10,7 +10,7 @@ import pdf from '../images/shivam cv (1).pdf'
 export default function Home() {
     return (
         <>
-            <div style={{ backgroundImage: `url(${img})`, width: "100%", height: "100vh" }}>
+            <div style={{ backgroundImage: `url(https://wallpaperaccess.com/full/5651999.jpg)`, width: "100%", height: "100vh" }}>
                 <div className="container pt-5">
                     <div className="center-vertically pt-5">
                         <span className="title p-2">Hi There!</span>
@@ -21,7 +21,7 @@ export default function Home() {
                                 loop: true,
                             }}
                         /></h1>
-                        <h5 className="text-white mt-4">Far far away, behind the word mountains, far from the <br /> countries India, there live the blind texts.</h5>
+                        <h5 className="text-white mt-4">Any fool can write code that a computer can<br></br> understand. Good programmers write code <br></br>that humans can understand.</h5>
                         <div className="mt-5 mb-5">
                             <Button variant="contained" color="primary" className="p-3 me-4">
                                 <span className="text-white font-bold"> <a href={pdf}>HIRE ME</a> </span> <span className="text-white ps-3"><ArrowForwardIcon /></span>
@@ -30,11 +30,11 @@ export default function Home() {
                                 <span className="text-primary font-bold">VIEW PROTFOLIO </span> <span className="text-primary ps-2"><ArrowForwardIcon /></span>
                             </Button>
                         </div>
-                        <div className="mt-5">
+                        {/* <div className="mt-5">
                             <Link to="/" className="font-600 pe-4 text-white"><AddIcon />FACEBOOK</Link>
                             <Link to="/" className="font-600 pe-4 text-white"><AddIcon />TWITTER</Link>
                             <Link to="/" className="font-600 text-white"><AddIcon />LINKEDIN</Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
