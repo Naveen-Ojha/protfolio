@@ -8,25 +8,27 @@ import Protfolio from './component/Protfolio';
 // import Testimonial from './component/Testimonial';
 // import Blog from './component/Blog';
 import Contact from './component/Contact';
-// import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
+      {/* <Home />
       <About  />
       <Services />
-      <Protfolio />
+      <Protfolio /> */}
       {/* <Testimonial /> */}
       {/* <Blog /> */}
-      <Contact />
-      <Footer />
-
-      {/* <Routes>
+      {/* <Contact /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-      </Routes> */}
-
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<Protfolio />} />
+        <Route path="/contactme" element={<Contact />} />
+      </Routes>
+      <Footer />
     </>
   )
 }
