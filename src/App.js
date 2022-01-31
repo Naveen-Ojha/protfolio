@@ -5,8 +5,8 @@ import Footer from './component/Footer';
 import About from './component/About';
 import Services from './component/Services';
 import Protfolio from './component/Protfolio';
-import Testimonial from './component/Testimonial';
-import Blog from './component/Blog';
+// import Testimonial from './component/Testimonial';
+// import Blog from './component/Blog';
 import Contact from './component/Contact';
 // import { Route, Routes } from 'react-router-dom';
 
@@ -18,8 +18,8 @@ function App() {
       <About  />
       <Services />
       <Protfolio />
-      <Testimonial />
-      <Blog />
+      {/* <Testimonial /> */}
+      {/* <Blog /> */}
       <Contact />
       <Footer />
 

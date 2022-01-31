@@ -14,7 +14,7 @@ function ServiceCard() {
                                     <div className='icon mb-4'>{curData.icon}</div>
                                     <h4 className="card-title font-bold text-primary">{curData.title}</h4>
                                     <p className="card-text text-justify text-color">{curData.description}</p>
-                                    {curData.link}
+                                    {/* {curData.link} */}
                                 </div>
                             </div>
                         </div>

@@ -13,9 +13,9 @@ export default function Footer() {
                         <div className="col-md-4">
                             <ul>
                                 <h3>Nk.Ojha</h3>
-                                <li className='py-2'>
+                                {/* <li className='py-2'>
                                     A small river named Duden flows by their place and supplies it with the necessary regelialia
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="col-md-4">
@@ -25,14 +25,14 @@ export default function Footer() {
                                     <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Web Design</span></Link>
                                 </li>
                                 <li className='py-2'>
-                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Web Development</span> </Link>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>FrontEnd Development</span> </Link>
                                 </li>
                                 <li className='py-2'>
-                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Graphic Design</span></Link>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>BackEnd Development</span></Link>
                                 </li>
-                                <li className='py-2'>
+                                {/* <li className='py-2'>
                                     <Link to="" className='footer-color'><ArrowForwardIcon />  <span>UI/UX Design</span></Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="col-md-4">

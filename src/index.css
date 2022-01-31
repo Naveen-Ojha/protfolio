@@ -10,7 +10,13 @@ body {
 }
 
 /* header */
-
+.name{
+  color: white;
+  display: inline;
+}
+.disp{
+  display: none;
+}
 .header-sroll {
   position: fixed;
   left: 0;

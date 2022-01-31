@@ -8,22 +8,22 @@ const ServiceData = [
         id: 1,
         icon: <CodeIcon className='service-icon' />,
         title: "UI & UX Design",
-        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
+        description: "create user-friendly interfaces that enable users to understand how to use complex technical products.",
+        // link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
     },
     {
         id: 2,
         icon: <CodeIcon className='service-icon' />,
         title: "Web Development",
-        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
+        description: "Pretty fast loading with responsive design, suits all devices and use cases.",
+        // link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
     },
     {
         id: 3,
         icon: <CodeIcon className='service-icon' />,
         title: "Mobile Development",
-        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
+        description: "Intuative and visually appealing apps with UX like user will get everything inside the app.",
+        // link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
     }
 ]
 

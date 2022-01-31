@@ -6,9 +6,9 @@ function Protfolio() {
         <>
             <div className='container my-5'>
                 <div className='row'>
-                    <h6 className='text-primary text-center'>Protfolio</h6>
-                    <h1 className='font-bold text-center mb-5'>My Latest Work</h1>
-                    {
+                    <h6 className='text-primary text-center'>Resume</h6>
+                    <h1 className='font-bold text-center mb-5'>Add RESUME HERE</h1>
+                    {/* {
                         ProtfolioData.map((curvalue) => {
                             const { id, img, text } = curvalue;
                             return (
@@ -20,7 +20,7 @@ function Protfolio() {
                                 </div>
                             )
                         })
-                    }
+                    } */}
                 </div>
             </div>
         </>
