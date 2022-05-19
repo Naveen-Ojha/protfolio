@@ -13,11 +13,11 @@ function Counter() {
                 const targetCount = +count.getAttribute("data-target");
                 const startingCount = Number(count.innerHTML);
 
-                const incr = targetCount / 100;
+                const incr = targetCount / 6;
 
                 if (startingCount < targetCount) {
                     count.innerHTML = `${Math.round(startingCount + incr)}`;
-                    setTimeout(updateCount, 30)
+                    setTimeout(updateCount, 300)
                 } else {
                     count.innerHTML = targetCount;
                 }
@@ -36,7 +36,7 @@ function Counter() {
                                     <CheckCircleOutlineIcon style={{ fontSize: "60px" }} />
                                 </div>
                                 <div className='col-md-9'>
-                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="4000"></div>
+                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="18"></div>
                                     <h5 className='font-bold'>Project completed</h5>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ function Counter() {
                                     <PeopleOutlineIcon style={{ fontSize: "70px" }} />
                                 </div>
                                 <div className='col-md-9'>
-                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="15000"></div>
+                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="6"></div>
                                     <h5 className='font-bold'>Client</h5>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ function Counter() {
                                     <AssignmentIcon style={{ fontSize: "60px" }} />
                                 </div>
                                 <div className='col-md-9'>
-                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="500"></div>
+                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="3"></div>
                                     <h5 className='font-bold'>ongoing Project</h5>
                                 </div>
                             </div>

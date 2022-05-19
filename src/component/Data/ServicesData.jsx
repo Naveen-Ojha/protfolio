@@ -8,21 +8,21 @@ const ServiceData = [
         id: 1,
         icon: <CodeIcon className='service-icon' />,
         title: "UI & UX Design",
-        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        description: "A UI, UX, and front-end web developer is responsible for applying interactive and visual design principles on websites and web applications for a positive and cohesive user experience.",
         link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
     },
     {
         id: 2,
         icon: <CodeIcon className='service-icon' />,
         title: "Web Development",
-        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        description: "Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. ",
         link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
     },
     {
         id: 3,
         icon: <CodeIcon className='service-icon' />,
         title: "Mobile Development",
-        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        description: "Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices, such as smartphones and other hand-held devices.",
         link: <Link to="" className="text-primary">Read more <ArrowForwardIcon /></Link>
     }
 ]
