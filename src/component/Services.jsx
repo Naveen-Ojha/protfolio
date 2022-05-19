@@ -15,7 +15,7 @@ function Services() {
                     <ServiceCard />
                     <div className='mt-5 pt-4 ps-5 ms-5'>
                         <p className='text-justify text-color font-bold'>Have any works you want to done by me? <Link to="/contact" className='text-primary'>Contact Me</Link> </p>
-                        <p className='text-justify text-color'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br /> there live the blind texts.</p>
+                        <p className='text-justify text-color'>If you have a question, reach out to us. Our dedicated support and service teams will ensure <br /> all of  questions and concerns are answered.</p>
                     </div>
                 </div>
             </div>
