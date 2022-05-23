@@ -28,7 +28,7 @@ function Contact() {
                         <div className='row'>
                             <div className='col-md-4'>
                                 <h6 className='font-bold'>MY ADDRESS:</h6>
-                                <p className='text-color'>198 West 21th Street, Suite 721 New York NY 10016</p>
+                                <p className='text-color'>Dwarka more New Delhi(India)</p>
                             </div>
                             <div className='col-md-4'>
                                 <h6 className='font-bold'>MY EMAIL:</h6>

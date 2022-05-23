@@ -14,7 +14,7 @@ export default function Footer() {
                             <ul>
                                 <h3>Nk.Ojha</h3>
                                 <li className='py-2'>
-                                    A small river named Duden flows by their place and supplies it with the necessary regelialia
+                                    A Full Stack Developer. If you want to create a website or you have some queries, then feel free to contact me.
                                 </li>
                             </ul>
                         </div>
@@ -39,7 +39,7 @@ export default function Footer() {
                             <ul>
                                 <h4>Have a question?</h4>
                                 <li className='py-2'>
-                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>D-221 patel garden Dwarka more <span className='ms-4 ps-1'>New Delhi(India)</span> </span></Link>
+                                    <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Dwarka more <span className=''>New Delhi(India)</span> </span></Link>
                                 </li>
                                 <li className='py-2'>
                                     <Link to="" className='footer-color'><ArrowForwardIcon /><span>+91 8770434284</span></Link>
