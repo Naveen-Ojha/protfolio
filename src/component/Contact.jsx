@@ -32,11 +32,11 @@ function Contact() {
                             </div>
                             <div className='col-md-4'>
                                 <h6 className='font-bold'>MY EMAIL:</h6>
-                                <p>info@yoursite.com</p>
+                                <p>naveen.ojha.rewa@gmail.com</p>
                             </div>
                             <div className='col-md-4'>
                                 <h6 className='font-bold'>MY PHONE:</h6>
-                                <p>+ 1235 2355 98</p>
+                                <p>+91 8770434284</p>
                             </div>
                         </div>
                         <div>
