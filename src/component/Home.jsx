@@ -22,7 +22,7 @@ export default function Home() {
                         /></h1>
                         <h5 className="text-white mt-4">Perfection is achieved not when there is nothing more <br /> to add, but rather when there is nothing more to take away.</h5>
                         <div className="mt-5 mb-5">
-                            <Button variant="contained" color="primary" className="p-3 me-4">
+                            <Button variant="contained" color="primary" className="p-3 me-4 mobile-margin-bottom">
                                 <span className="text-white font-bold">HIRE ME </span> <span className="text-white ps-3"><ArrowForwardIcon /></span>
                             </Button>
                             <Button variant="contained" color="default" className="p-3">
@@ -30,8 +30,8 @@ export default function Home() {
                             </Button>
                         </div>
                         <div className="mt-5">
-                            <Link to="/" className="font-600 pe-4 text-white"><AddIcon />FACEBOOK</Link>
-                            <Link to="/" className="font-600 pe-4 text-white"><AddIcon />TWITTER</Link>
+                            <Link to="/" className="font-600 padding-right-4 text-white"><AddIcon />FACEBOOK</Link>
+                            <Link to="/" className="font-600 padding-right-4 text-white"><AddIcon />TWITTER</Link>
                             <Link to="/" className="font-600 text-white"><AddIcon />LINKEDIN</Link>
                         </div>
                     </div>

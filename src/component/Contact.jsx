@@ -67,7 +67,7 @@ function Contact() {
                                         </div>
                                     </div>
                                 </div>
-                                <Button type='submit' variant="contained" color="primary" className='font-bold'> SEND MESSAGE </Button>
+                                <Button type='submit' variant="contained" color="primary" className='font-bold mobile-marg-btn-mesg'> SEND MESSAGE </Button>
                             </form>
                         </div>
                     </div>
