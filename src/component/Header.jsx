@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../App.css'
+import ReorderIcon from '@material-ui/icons/Reorder';
 
 export default function header() {
 
@@ -21,15 +22,15 @@ export default function header() {
     return (
         <div>
             <div className="container">
-                <nav className="navbar navbar-expand-lg fixed-top ftco-navbar-light pt-3" id="navbar">
+                <nav className="navbar navbar-expand-lg fixed-top ftco-navbar-light pt-3 mobile-navbar-bg-color" id="navbar">
                     <div className="container">
                         <Link className="navbar-brand text-white align-items-center" to="#">
                             Nk.ojha
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="fa fa-bars"></span> Menu
+                            <span className="fa fa-bars"></span> <ReorderIcon />
                         </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div className="collapse navbar-collapse navrbar-collapse-item" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item"><Link to="/">Home</Link></li>
                                 <li className="nav-item"><NavLink to="/about">About</NavLink></li>

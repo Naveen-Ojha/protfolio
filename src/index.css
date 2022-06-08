@@ -21,19 +21,23 @@ body {
   background-color: #0779e4;
   padding: 20px 0px 20px 0px !important;
 }
+
 .nav-item {
   padding-left: 35px;
 }
+
 a {
   color: #f8f8f8 !important;
   text-decoration: none !important;
 }
+
 .nav-item .active {
   background-color: #3e9ff9;
   padding: 25px 15px 29px 15px;
   color: #fff !important;
   position: relative;
 }
+
 .nav-item .active::after {
   position: absolute;
   bottom: -9px;
@@ -57,15 +61,19 @@ a {
   height: 100vh;
   display: flex;
 }
+
 .font-bold {
   font-weight: bold;
 }
+
 .font-600 {
   font-weight: 600;
 }
+
 .text-40 {
   font-size: 43px;
 }
+
 .title {
   background-color: #fff;
   color: #0779e4;
@@ -75,6 +83,7 @@ a {
   border-radius: 6px;
   position: relative;
 }
+
 .title::after {
   position: absolute;
   bottom: -6px;
@@ -89,6 +98,7 @@ a {
   border-width: 10px 10px 0 10px;
   border-color: #fff transparent transparent transparent;
 }
+
 .line-height-60 {
   line-height: 60px;
 }
@@ -103,12 +113,14 @@ a {
   border-radius: 7px;
   position: relative;
 }
+
 .tabs .active {
   background-color: #0779e4;
   color: #fff;
   border: none;
   outline: none;
 }
+
 .tabs .active::after {
   position: absolute;
   bottom: -9px;
@@ -123,8 +135,14 @@ a {
   border-width: 10px 10px 0 10px;
   border-color: #0779e4 transparent transparent transparent;
 }
+
 .text-color {
   color: #a1a1a1;
+}
+
+.mobile-padd-about{
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
 }
 
 /* service */
@@ -138,11 +156,13 @@ a {
   display: flex;
   position: relative;
 }
+
 .service-icon {
   font-size: 2.5rem !important;
   color: #fff;
   margin-left: 13px;
 }
+
 .icon::after {
   position: absolute;
   bottom: -9px;
@@ -224,17 +244,21 @@ a {
 .footer {
   background-color: #eee;
 }
+
 .second-footer {
   background-color: #e9e9e9;
 }
+
 .footer-color {
   color: #000 !important;
   cursor: pointer;
 }
+
 ul li {
   list-style-type: none;
 }
-.whatappp{
+
+.whatappp {
   color: #3bd38c !important;
   border: none !important;
   height: 50px;
@@ -244,8 +268,58 @@ ul li {
   right: 30px;
   position: fixed;
 }
-.custom-whatapp{
+
+.custom-whatapp {
   background-color: transparent;
   font-size: 40px !important;
   border-radius: 10px !important;
+}
+.margin-3rem{
+  margin-right: 3rem;
+}
+.padding-right-4{
+  padding-right: 4rem;
+}
+.navrbar-collapse-item{
+  margin-top: 20px;
+  line-height: 40px;
+  margin-left: -27px;
+}
+.mobile-navbar-bg-color{
+  background-color: #3e9ff9;
+}
+
+@media only screen and (max-width: 320px) {
+  .mobile-responsive-padding-margin {
+    margin-left: 0px !important;
+  }
+
+  .protfolio-card {
+    width: 100% !important;
+  }
+
+  .mobile-height-auto {
+    height: auto !important;
+    border-radius: 7px;
+  }
+  .mobile-padding-counter{
+    padding-bottom: 4rem !important;
+  }
+  .mobile-marg-btn-mesg{
+    margin-bottom: 15px !important;
+  }
+  .mobile-padd-about{
+    margin-top: 15px !important;
+    padding-left: 15px !important;
+    padding-right: 10px !important;
+  }
+  .margin-3rem{
+    margin-right: .6rem;
+  }
+  .mobile-margin-bottom{
+    margin-bottom: 20px !important;
+  }
+  .padding-right-4{
+    padding-right: .3rem !important;
+  }
 }

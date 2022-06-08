@@ -9,15 +9,15 @@ function About() {
                     <div className='col-md-5'>
                         <img src={img} alt="about img" className='w-100' style={{ height: "500px" }} />
                     </div>
-                    <div className='col-md-7 px-5'>
+                    <div className='col-md-7 mobile-padd-about'>
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li className="tabs me-5" role="presentation">
+                            <li className="tabs margin-3rem" role="presentation">
                                 <button className="custom-btn p-2 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">ABOUT ME</button>
                             </li>
-                            <li className="tabs me-5" role="presentation">
+                            <li className="tabs margin-3rem" role="presentation">
                                 <button className="custom-btn p-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">SKILLS</button>
                             </li>
-                            <li className="tabs me-5" role="presentation">
+                            <li className="tabs margin-3rem" role="presentation">
                                 <button className="custom-btn p-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">EXPERIENCE</button>
                             </li>
                         </ul>
