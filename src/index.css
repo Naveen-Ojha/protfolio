@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif !important;
   background: #f8f8f8 !important;
-  color: #000;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -140,7 +140,7 @@ a {
   color: #a1a1a1;
 }
 
-.mobile-padd-about{
+.mobile-padd-about {
   padding-left: 3rem !important;
   padding-right: 3rem !important;
 }
@@ -182,7 +182,7 @@ a {
 
 .protfolio-card {
   position: relative;
-  width: 45% !important;
+  /* width: 100% !important; */
 }
 
 .image {
@@ -274,52 +274,94 @@ ul li {
   font-size: 40px !important;
   border-radius: 10px !important;
 }
-.margin-3rem{
+
+.margin-3rem {
   margin-right: 3rem;
 }
-.padding-right-4{
+
+.padding-right-4 {
   padding-right: 4rem;
 }
-.navrbar-collapse-item{
+
+.navrbar-collapse-item {
   margin-top: 20px;
   line-height: 40px;
   margin-left: -27px;
 }
-.mobile-navbar-bg-color{
+
+.mobile-navbar-bg-color {
   background-color: #3e9ff9;
 }
 
-@media only screen and (max-width: 320px) {
+.mobile-margin-bottom {
+  margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 320px) {
   .mobile-responsive-padding-margin {
     margin-left: 0px !important;
   }
 
-  .protfolio-card {
+  /* .protfolio-card {
     width: 100% !important;
-  }
+  } */
 
   .mobile-height-auto {
     height: auto !important;
     border-radius: 7px;
   }
-  .mobile-padding-counter{
+
+  .mobile-padding-counter {
     padding-bottom: 4rem !important;
+    padding-left: 28px !important;
   }
-  .mobile-marg-btn-mesg{
+
+  .mobile-marg-btn-mesg {
     margin-bottom: 15px !important;
   }
-  .mobile-padd-about{
+
+  .mobile-padd-about {
     margin-top: 15px !important;
     padding-left: 15px !important;
     padding-right: 10px !important;
   }
-  .margin-3rem{
+
+  .margin-3rem {
     margin-right: .6rem;
   }
-  .mobile-margin-bottom{
+
+  .mobile-margin-bottom {
     margin-bottom: 20px !important;
   }
-  .padding-right-4{
+
+  .padding-right-4 {
     padding-right: .3rem !important;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .padding-right-4 {
+    padding-right: 2rem !important;
+  }
+
+  .mobile-padd-about {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .about-tab {
+    margin-top: 20px !important;
+    margin-right: 1rem !important;
+  }
+
+  .card-m-mobile {
+    width: 22rem !important;
+  }
+
+}
+
+@media only screen and (min-width: 425px) {
+  .about-tab {
+    margin-right: 2rem !important;
   }
 }

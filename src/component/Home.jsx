@@ -25,7 +25,7 @@ export default function Home() {
                             <Button variant="contained" color="primary" className="p-3 me-4 mobile-margin-bottom">
                                 <span className="text-white font-bold">HIRE ME </span> <span className="text-white ps-3"><ArrowForwardIcon /></span>
                             </Button>
-                            <Button variant="contained" color="default" className="p-3">
+                            <Button variant="contained" color="default" className="p-3 mobile-margin-bottom">
                                 <span className="text-primary font-bold">VIEW PROTFOLIO </span> <span className="text-primary ps-2"><ArrowForwardIcon /></span>
                             </Button>
                         </div>
