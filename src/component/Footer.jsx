@@ -42,7 +42,7 @@ export default function Footer() {
                                     <Link to="" className='footer-color'><ArrowForwardIcon /> <span>Dwarka more <span className=''>New Delhi(India)</span> </span></Link>
                                 </li>
                                 <li className='py-2'>
-                                    <Link to="" className='footer-color'><ArrowForwardIcon /><span>+91 8770434284</span></Link>
+                                    <a href="http://wa.me/+917415272944" target='_blank' className='footer-color'><ArrowForwardIcon /><span>Connect with What's App</span></a>
                                 </li>
                                 <li className='py-2'>
                                     <Link to="" className='footer-color'><ArrowForwardIcon /><span> naveen.ojha.rewa@gmail.com</span></Link>
