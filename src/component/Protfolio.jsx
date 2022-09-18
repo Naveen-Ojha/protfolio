@@ -12,10 +12,10 @@ function Protfolio() {
                         ProtfolioData.map((curvalue) => {
                             const { id, img, text } = curvalue;
                             return (
-                                <div key={id} class="protfolio-card mb-4 col-md-6 col-12">
-                                    <img src={img} alt="Avatar" class="image" style={{ width: "100%",height:"300px" }} />
-                                    <div class="middle text-center">
-                                        <div class="text">{text}</div>
+                                <div key={id} className="protfolio-card mb-4 col-md-6 col-12">
+                                    <img src={img} alt="Avatar" className="image" style={{ width: "100%",height:"300px" }} />
+                                    <div className="middle text-center">
+                                        <div className="text">{text}</div>
                                     </div>
                                 </div>
                             )

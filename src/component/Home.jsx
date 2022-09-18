@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import { Button } from "@material-ui/core";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import AddIcon from "@material-ui/icons/Add";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -41,7 +41,7 @@ export default function Home() {
               add, but rather when there is nothing more to take away.
             </h5>
             <div className="mt-5 mb-5">
-              <a target='_blank' href="https://www.naukri.com/mnjuser/profile?id=&altresid">
+              <a rel="noreferrer" target='_blank' href="https://www.naukri.com/mnjuser/profile?id=&altresid">
                 <Button
                   variant="contained"
                   color="primary"
@@ -65,18 +65,18 @@ export default function Home() {
               </Button>
             </div>
             <div className="mt-5">
-              <Link to="/" className="font-600 padding-right-4 text-white">
+              <a rel="noreferrer" target='_blank' href="https://www.facebook.com/profile.php?id=100006939617509" className="font-600 padding-right-4 text-white">
                 <AddIcon />
                 FACEBOOK
-              </Link>
-              <Link to="/" className="font-600 padding-right-4 text-white">
+              </a> 
+              <a rel="noreferrer" target='_blank' href="https://twitter.com/TheNaveenOjha" className="font-600 padding-right-4 text-white">
                 <AddIcon />
                 TWITTER
-              </Link>
-              <Link to="/" className="font-600 text-white">
+              </a>
+              <a rel="noreferrer" target='_blank' href="https://www.linkedin.com/in/naveen-kant-ojha-13608b189/" className="font-600 text-white">
                 <AddIcon />
                 LINKEDIN
-              </Link>
+              </a>
             </div>
           </div>
         </div>

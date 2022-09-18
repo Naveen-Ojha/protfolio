@@ -15,7 +15,7 @@ function Blog() {
                         BlogData.map((curEle) => {
                             const { id, title, desc, srcImg, date } = curEle
                             return (
-                                <div key={id} class="col-md-6">
+                                <div key={id} className="col-md-6">
                                     <div className='card'>
                                         <img src={srcImg} alt="Blog img" style={{ width: "100%", height: "350px" }} />
                                         <div className='card-body'>

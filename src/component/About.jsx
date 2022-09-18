@@ -46,6 +46,9 @@ function About() {
                                             Python
                                         </li>
                                         <li className='my-3'>
+                                            Django
+                                        </li>
+                                        <li className='my-3'>
                                             MongoDB
                                         </li>
                                         <li className='my-3'>
@@ -78,42 +81,48 @@ function About() {
                                 </ul>
                             </div>
                             <div className="tab-pane fade font-bold " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                <h2 className='py-2'>
+                                <div className='py-2 h2'>
                                     <h5 className='fw-bold'>Angular</h5>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
                                     </div>
-                                </h2>
-                                <h2 className='py-2'>
+                                </div>
+                                <div className='py-2 h2'>
                                     <h5 className='fw-bold'>React</h5>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
                                     </div>
-                                </h2>
-                                <h2 className='py-2'>
+                                </div>
+                                <div className='py-2 h2'>
                                     <h5 className='fw-bold'>Javascript</h5>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
                                     </div>
-                                </h2>
-                                <h2 className='py-2'>
+                                </div>
+                                <div className='py-2 h2'>
                                     <h5 className='fw-bold'>Typescript</h5>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
                                     </div>
-                                </h2>
-                                <h2 className='py-2'>
+                                </div>
+                                <div className='py-2 h2'>
                                     <h5 className='fw-bold'>MongoDB</h5>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
                                     </div>
-                                </h2>
-                                <h2 className='py-2'>
+                                </div>
+                                <div className='py-2 h2'>
                                     <h5 className='fw-bold'>Python</h5>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
                                     </div>
-                                </h2>
+                                </div>
+                                <div className='py-2 h2'>
+                                    <h5 className='fw-bold'>Django</h5>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ function Counter() {
     return (
         <>
             <div className='mb-5 mobile-height-auto' style={{ backgroundImage: `url(${img})`, width: "100%", height: "230px", background: "linear-gradient(0deg, rgb(38 67 211 / 100%), rgb(32 53 201 / 34%)) 0% 0% / cover", backgroundSize: "cover" }}>
-                <div class="container pt-5 mobile-padding-counter">
+                <div className="container pt-5 mobile-padding-counter">
                     <div className='row mt-3'>
                         <div className='col-md-4 text-white'>
                             <div className='row align-items-center'>
@@ -36,7 +36,7 @@ function Counter() {
                                     <CheckCircleOutlineIcon style={{ fontSize: "60px" }} />
                                 </div>
                                 <div className='col-md-9'>
-                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="18"></div>
+                                    <div className="counter h1" style={{ fontWeight: "900" }} data-target="18"></div>
                                     <h5 className='font-bold'>Project completed</h5>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ function Counter() {
                                     <PeopleOutlineIcon style={{ fontSize: "70px" }} />
                                 </div>
                                 <div className='col-md-9'>
-                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="6"></div>
+                                    <div className="counter h1" style={{ fontWeight: "900" }} data-target="6"></div>
                                     <h5 className='font-bold'>Client</h5>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ function Counter() {
                                     <AssignmentIcon style={{ fontSize: "60px" }} />
                                 </div>
                                 <div className='col-md-9'>
-                                    <div class="counter h1" style={{ fontWeight: "900" }} data-target="3"></div>
+                                    <div className="counter h1" style={{ fontWeight: "900" }} data-target="3"></div>
                                     <h5 className='font-bold'>ongoing Project</h5>
                                 </div>
                             </div>
